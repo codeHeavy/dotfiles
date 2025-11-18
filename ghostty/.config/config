@@ -1,0 +1,13 @@
+font-family="JetBrainsMono Nerd Font"
+font-size = 12
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
+background-blur=true
+background-opacity = 0.80
+#
+background = #11111b
+#theme = catppuccin-mocha.conf
+window-padding-x = 10
+window-decoration=none
+cursor-style-blink=false
