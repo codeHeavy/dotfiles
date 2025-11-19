@@ -1,0 +1,40 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE Specific Files
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+*.tmp
+*.sublime-*
+*.code-workspace
+
+# Log and Cache Files
+*.log
+*.cache
+*.session
+*.state
+*.pid
+
+# Temporary directories
+temp/
+tmp/
+
+# Zsh history file (if configured to be within the dotfiles repo)
+.zsh_history
+
+# Rofi generated cache files (if any are created within the rofi config directory)
+# For example, if rofi creates a .cache file next to the .rasi files.
+rofi/*.cache
+
+# btop generated files (if any are created within the btop config directory)
+btop/btop.log
+btop/btop.old
+
+# Any other potential local-only or sensitive files
+*.local
+.env
+.env.*
