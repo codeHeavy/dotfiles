@@ -19,7 +19,7 @@
     "format": "{}",
     "max-length": 45,
     "rewrite": {
-      "": "code-heavy"
+      "": "code_heavy"
     },
     "separate-outputs": true,
   },

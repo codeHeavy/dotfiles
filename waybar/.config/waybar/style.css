@@ -2,7 +2,7 @@
 
 * {
   font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 window#waybar {
@@ -10,6 +10,7 @@ window#waybar {
   border-radius: 13px;
   transition-property: background-color;
   transition-duration: 0.5s;
+  color: @subtext0;
 }
 
 button {

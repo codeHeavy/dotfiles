@@ -3,6 +3,9 @@
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export EDITOR=nvim
+export VISUAL=nvim
+export SYSTEMD_EDITOR=nvim
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -105,8 +108,12 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias zshconfig="nvim ~/dotfiles/zsh/.zshrc"
-#alias hyprconf="nvim ~/dotfiles/hyprland/.config/hypr/hyprland.conf"
+alias nv=nvim
+alias hyprconf="nvim ~/dotfiles/hyprland/.config/hypr/hyprland.conf"
 # alias ohmyzsh="nvim ~/.oh-my-zsh"
-
+# If on TTY1, start Hyprland
+if [[ "$(tty)" == "/dev/tty1" ]]; then
+    exec Hyprland &>/dev/null
+fi
 eval "$(starship init zsh)"
 
