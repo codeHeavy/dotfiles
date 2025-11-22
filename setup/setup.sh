@@ -31,7 +31,7 @@ fi
 
 msg "Installing arch packages…"
 
-sudo pacman -Sy --noconfirm ttf-jetbrains-mono-nerd fzf stow ghostty neovim waybar rofi-wayland hyprlock hyprpaper hypridle tree tldr yazi btop brightnessctl cliphist wl-clipboard swappy jq dunst
+sudo pacman -Sy --noconfirm ttf-jetbrains-mono-nerd fzf stow ghostty neovim waybar rofi-wayland hyprlock hyprpaper hypridle tree tldr yazi btop brightnessctl cliphist wl-clipboard swappy slurp jq dunst
 
 msg "Pacman packages installed!"
 

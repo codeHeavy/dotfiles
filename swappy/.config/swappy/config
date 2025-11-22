@@ -1,0 +1,15 @@
+[Default]
+save_dir=$HOME/Pictures
+save_filename_format=screenshot-(%Y-%m-%d)-(%H:%M:%S).png
+show_panel=false
+line_size=5
+text_size=20
+text_font=jetbrains-mono
+paint_mode=brush
+early_exit=false
+fill_shape=false
+auto_save=false
+custom_color=rgba(193,125,17,1)
+transparent=false
+transparency=50
+save_after_copy=true
